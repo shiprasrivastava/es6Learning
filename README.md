@@ -30,8 +30,20 @@ for (let x of fruits) {
 };
 </script>
 # Map Object===>It holds key-value pairs where the keys can be any datatype and it remember  remembers the original insertion order of  the key and it has property that represents the size of the map
-
-
+#method
+new Map()
+set() ===>set value for key
+get()====> get value for key
+clear()===>Removes all the elements 
+delete()=====>
+has()===> true if key exists else false
+foreach()===>
+entries()===>return iterator object with the [key, value] pairs
+keys()===>Returns an iterator object with the keys
+values()===>Returns an iterator object with values
+#property
+size ===>get the size of map
+ # Rest Parameter===> allows indefinite number of arguments as an array
 
 
 
