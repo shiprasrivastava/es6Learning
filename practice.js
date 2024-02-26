@@ -14,8 +14,8 @@ console.log(x);
 
 //function
 var y = 20;
-const z = (x, y) => x * y;
-console.log(z);
+const z = (x, y) => {return (x * y);}
+console.log(z(5,3));
 
 const fruits = ["apple","banana","pear"];
 for (let fruit of fruits) {
